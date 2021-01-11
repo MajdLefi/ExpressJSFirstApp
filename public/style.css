@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    padding: 15px 0; 
+    font-family:'Ubuntu',sans-serif ;
+    transition: all 0.3s ease;
+    background-color:#A93226 ;
+}
+
+.max-width {
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+
+.navbar.sticky{
+    padding: 15px 0;
+    background: #EC7063 ;
+}
+
+.navbar.sticky .menu li a:hover{
+    color: #fff  ;
+}
+
+.navbar.sticky .logo a span{
+    color:#EC7063;
+} 
+
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo a{
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.navbar .menu li {
+    list-style: none;
+    display: inline-block;
+}
+
+
+.navbar .menu li a{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: color 0.3s ease;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.services {
+    padding: 130px;
+    text-align: center;
+}
+
+.card1{
+    border-style: solid;
+    width: 50px;
+    border-color: silver;
+    padding: 50px;
+    margin: 20px
+}
+
+.card2{
+    border-style: solid;
+    width: 50px;
+    border-color: silver;
+    padding: 50px;
+    margin: 20px
+}
+.card3{
+    border-style: solid;
+    width: 50px;
+    border-color: silver;
+    padding: 50px;
+    margin: 20px
+}
+.card4{
+    border-style: solid;
+    width: 50px;
+    border-color: silver;
+    padding: 50px;
+    margin: 20px
+}
+
+.cards {
+    display: inline-flex;
+}
+
+.card {
+    width: 350px;
+    height: 350px;
+    background-color: snow;
+    border: solid;
+    width: 200px;
+    border-color: tan;
+    margin: 19px;
+
+}
+
+.description1 {
+    margin-top: 40px;
+}
+
+.description2 {
+    margin-top: 25px;
+}
+
+.description3 {
+    margin-top: -7px;
+}
+
+.description4 {
+    margin-top: 18px;
+}
+
+
+.c4 {
+    width: auto;
+    height: auto;
+    margin-top: 40px;
+}
+
+button {
+    background-color: #5DADE2;
+}
+
+.home-content {
+    margin: 70px;
+}
+
+
+
